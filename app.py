@@ -3,13 +3,13 @@ from PIL import Image
 import pytesseract
 import pyttsx3
 import google.generativeai as genai
-import threading  # Add threading module for running speech synthesis in a separate thread
+import threading  
 
 # Set path to tesseract executable
 pytesseract.pytesseract.tesseract_cmd = r'C:\Users\Soberr\AppData\Local\Tesseract-OCR\tesseract.exe'  
 
 # Initialize Google Generative AI with API Key
-genai.configure(api_key="AIzaSyDUDkjE1JHK3GkY8-_Es1j7qs6LMffWsmI")
+genai.configure(api_key="GEMINI API")
 
 # Initialize Text-to-Speech engine
 engine = pyttsx3.init()
